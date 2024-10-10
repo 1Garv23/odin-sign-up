@@ -87,8 +87,37 @@ button{
     color: white;
 }
 .footer{
-    padding-left:8vw;
-    
+    padding-left:5vw;
+    padding-top:4vw;
     background-color: whitesmoke;
-    height: 28vh;
+    height: 12.4vh;
+}
+
+input:focus{
+    outline:none;
+    border: 2px solid blue;
+}
+
+.password>div{
+    position: relative;
+}
+input[type="password"]+span::after{
+    content: "Please Enter a Password";
+    color:red;
+    position:absolute;
+    visibility: hidden;
+    top:0px;
+    right:0px;
+}
+input[type="password"]#secondPswd:invalid+span::after{
+    right:-100px;
+}
+input[type="password"]:invalid+span::after{
+    visibility: visible;
+}
+input:valid{
+    outline:2px solid green;
+}
+input:invalid{
+    outline:2px solid red;
 }
