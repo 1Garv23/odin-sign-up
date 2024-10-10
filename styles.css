@@ -1,0 +1,94 @@
+*{
+    padding:0;
+    margin:0;
+}
+.signup{
+    display:flex;
+}
+.mainImg{
+    width:33vw;
+    height: 100vh;
+}
+.logo{
+    width:13vw;
+    height:20vh;
+}
+.sideBar{
+    background-color: black;
+    opacity: 0.33;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 25vh;
+    width:33vw;
+}
+.sideBarText{
+    font-size: 120px;
+    color: white;
+    align-self: center;
+}
+.upperText{
+    background-color: whitesmoke;
+    padding-left:5vw;
+    padding-top:5vw;
+    padding-bottom:3vw;
+}
+.textContent{
+    margin-top:4vh;
+    font-size: 45px;
+    font-weight: bold;
+    width: 65%;
+    
+}
+
+
+
+form{
+    /* background-color: whitesmoke; */
+}
+.motivator{
+    margin-left:5vw;
+    margin-top:3vw;
+    font-size: 38px;
+    font-weight: bold;
+}
+.name, .contact, .password{
+    padding-top:2vw;
+    padding-left:5vw;
+    display:flex;
+}
+.name > div, .contact>div, .password>div{
+    display: flex;
+    flex-direction: column;
+}
+.lastName, .phone, .secondPswd{
+    margin-left:8vw;
+}
+label{
+    font-size: 24px;
+    font-weight: bold;
+}
+input{
+    height:32px;
+    width: 333px;
+    border:2px solid rgb(211, 210, 210);
+    font-size: 24px;
+}
+.button{
+    background-color:whitesmoke ;
+    padding-top:2vw;
+    padding-left:5vw;
+}
+button{
+    background-color: #596D48;
+    height:50px;
+    width: 300px;
+    border-radius: 4%;
+    color: white;
+}
+.footer{
+    padding-left:8vw;
+    
+    background-color: whitesmoke;
+    height: 28vh;
+}
